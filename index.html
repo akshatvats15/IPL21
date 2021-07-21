@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Indian Postponed League 2021</title>
+
+  <!-- Animated favicon only works in firefox as of now -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:wght@300;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- BootStrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
+        <!-- <a class="navbar-brand" href="#">IPL 2021</a> -->
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="images/logo4.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Teams
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.mumbaiindians.com/">Mumbai Indians</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.delhicapitals.in/">Delhi Capitals</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.sunrisershyderabad.in/">Sunrisers Hyderabad</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.royalchallengers.com/">Royal Challengers Bangalore</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.kkr.in/">Kolkata Knight Riders</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.punjabkingsipl.in/">Punjab Kings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.chennaisuperkings.com">Chennai Super Kings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.rajasthanroyals.com">Rajasthan Royals</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#points-table">Points Table <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stats">Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <div class="container-fluid home">
+    <img class="home_photo" src="images/home_photo.jpg" alt="">
+  </div>
+
+  <section id="teams">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active mi">
+          <img src="images/mi_logo.png" alt="logo" class="ci-logo">
+          <img src="images/mi_captain.png" alt="captain" class="ci-captain">
+          <h5>Mumbai Indians</h5>
+          <p>Wankhede Stadium.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4><i class="fas fa-trophy fa-2x"></i> 2013 2015 2017 2019 2020</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item srh">
+          <img src="images/srh_logo.png" alt="logo" class="ci-logo">
+          <img src="images/srh_captain.png" alt="captain" class="ci-captain">
+          <h5>Sunrisers Hyderabad</h5>
+          <p>Rajiv Gandhi Intl. Cricket Stadium.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4><i class="fas fa-trophy fa-2x"></i> 2016</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item rcb">
+          <img src="images/rcb_logo.png" alt="logo" class="ci-logo">
+          <img src="images/rcb_captain.png" height="32%" alt="captain" class="ci-captain">
+          <h5>Royal Challengers Bangalore</h5>
+          <p>M. Chinnaswamy Stadium.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4>Runner-Up 2009 2011 2016</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item dc">
+          <img src="images/dc_logo.png" alt="logo" class="ci-logo">
+          <img src="images/dc_captain.png" height="80%" alt="captain" class="ci-captain">
+          <h5>Delhi Capitals</h5>
+          <p>Arun Jaitley Stadium</p>
+          <div class="card">
+            <div class="card-body">
+              <h4>Runner-Up 2020</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item csk">
+          <img src="images/csk_logo.png" alt="logo" class="ci-logo" class="ci-captain">
+          <img src="images/csk_captain.png" alt="captain">
+          <h5>Chennai Super Kings</h5>
+          <p>M.A. Chidambaram Stadium.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4><i class="fas fa-trophy fa-2x"></i> 2010 2011 2018</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item kkr">
+          <img src="images/kkr_logo.png" alt="logo" class="ci-logo">
+          <img src="images/kkr_captain.png" alt="captain" class="ci-captain">
+          <h5>Kolkata Knight Riders</h5>
+          <p>Eden Gardens.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4><i class="fas fa-trophy fa-2x"></i> 2012 2014</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item rr">
+          <img src="images/rr_logo.png" alt="logo" class="ci-logo">
+          <img src="images/rr_captain.png" alt="captain" class="ci-captain">
+          <h5>Rajasthan Royals</h5>
+          <p>Sawai Mansingh Stadium.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4><i class="fas fa-trophy fa-2x"></i> 2008</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item pbks">
+          <img src="images/pbks_logo.png" alt="logo" class="ci-logo">
+          <img src="images/pbks_captain.png" alt="captain" class="ci-captain">
+          <h5>Punjab Kings</h5>
+          <p>IS Bindra Stadium.</p>
+          <div class="card">
+            <div class="card-body">
+              <h4>Runner-Up 2014</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev carousel-button-left" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next carousel-button-right" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="points-table">
+    <div class="table-cover">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Team</th>
+            <th scope="col">Palyed</th>
+            <th scope="col">Won</th>
+            <th scope="col">Lost</th>
+            <th scope="col">N/R</th>
+            <th scope="col">Points</th>
+            <th scope="col">Net RR</th>
+            <th scope="col">Form</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <th>Delhi Capitals</td>
+            <td>8</td>
+            <td>6</td>
+            <td>2</td>
+            <td>0</td>
+            <td>12</td>
+            <td>+0.547</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <th>Chennai Super Kings</td>
+            <td>7</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>10</td>
+            <td>+1.263</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <th>Royal Challengers Bangalore</td>
+            <td>7</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>10</td>
+            <td>-0.171</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <th>Mumbai Indians</td>
+            <td>7</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+            <td>8</td>
+            <td>+0.062</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list won">W</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <th>Rajasthan Royals</td>
+            <td>7</td>
+            <td>3</td>
+            <td>4</td>
+            <td>0</td>
+            <td>6</td>
+            <td>-0.190</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list lost">L</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <th>Punjab Kings</td>
+            <td>8</td>
+            <td>3</td>
+            <td>5</td>
+            <td>0</td>
+            <td>6</td>
+            <td>-0.368</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <th>Kolkata Knight Riders</td>
+            <td>7</td>
+            <td>2</td>
+            <td>5</td>
+            <td>0</td>
+            <td>4</td>
+            <td>-0.494</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list lost">L</li>
+              </ul>
+            </td>
+          </tr>
+          <tr class="qwer">
+            <th scope="row">8</th>
+            <th>Sunrisers Hyderabad</td>
+            <td>7</td>
+            <td>1</td>
+            <td>6</td>
+            <td>0</td>
+            <td>2</td>
+            <td>-0.623</td>
+            <td>
+              <ul class="form-ulist">
+                <li class="form-list lost">L</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list lost">L</li>
+                <li class="form-list won">W</li>
+                <li class="form-list lost">L</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="stats">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/stats_mostruns.webp" class="card-img-top" alt="Most Runs">
+            <div class="card-body orange-cap">
+              <h5 class="card-title">Most Runs</h5>
+              <p class="card-text">Shikhar Dhawan</p>
+              <p class="card-text">380</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/stats_mostwickets.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body purple-cap">
+              <h5 class="card-title">Most Scalps</h5>
+              <p class="card-text">Harshal Patel</p>
+              <p class="card-text">17</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/stats_bsix.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body mi">
+              <h5 class="card-title">Biggest Six</h5>
+              <p class="card-text">Kieron Pollard</p>
+              <p class="card-text">105m</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/stats_bbper.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body rr">
+              <h5 class="card-title">Best Batting Performance</h5>
+              <p class="card-text">Jos Buttler</p>
+              <p class="card-text">124</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/stats_bboper.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body kkr">
+              <h5 class="card-title">Best Bowling Performance</h5>
+              <p class="card-text">Andre Russell</p>
+              <p class="card-text">5/15</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/stats_fball.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body dc">
+              <h5 class="card-title">Fastest Ball</h5>
+              <p class="card-text">Kagiso Rabada</p>
+              <p class="card-text">148.73kmph</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/stats_mostsixes.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body pbks">
+              <h5 class="card-title">Most Sixes</h5>
+              <p class="card-text">KL Rahul</p>
+              <p class="card-text">16</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/stats_mostfours.webp" class="card-img-top" alt="Most Wickets">
+            <div class="card-body dc">
+              <h5 class="card-title">Most Fours</h5>
+              <p class="card-text">Shikhar Dhawan</p>
+              <p class="card-text">43</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="gallery">
+    <div class="container-fluid">
+      <div class="row gal_row">
+        <div class="col-lg-4 col-sm-6 gal_col">
+          <img class="gal_img" src="images/p1.webp" />
+          <img class="gal_img" src="images/p2.webp" />
+          <img class="gal_img" src="images/p6.webp" />
+          <img class="gal_img" src="images/p3.webp" />
+        </div>
+        <div class="col-lg-4 col-sm-6 gal_col">
+          <img class="gal_img" src="images/p16.jpg" />
+          <img class="gal_img" src="images/p7.webp" />
+          <img class="gal_img" src="images/p10.webp" />
+          <img class="gal_img" src="images/p4.webp" />
+        </div>
+        <div class="col-lg-4 col-sm-6 gal_col">
+          <img class="gal_img" src="images/p11.webp" />
+          <img class="gal_img" src="images/p12.webp" />
+          <img class="gal_img" src="images/p13.webp" />
+          <img class="gal_img" src="images/p5.webp" />
+        </div>
+        <div class="col-lg-4 col-sm-6 gal_col">
+          <img class="gal_img" src="images/p19.webp" />
+          <img class="gal_img" src="images/p20.webp" />
+          <img class="gal_img" src="images/p21.webp" />
+          <img class="gal_img" src="images/p22.webp" />
+        </div>
+        <div class="col-lg-4 col-sm-6 gal_col">
+          <img class="gal_img" src="images/p8.webp" />
+          <img class="gal_img" src="images/p9.webp" />
+          <img class="gal_img" src="images/p23.webp" />
+          <img class="gal_img" src="images/p24.webp" />
+        </div>
+        <div class="col-lg-4 col-sm-6 gal_col">
+          <img class="gal_img" src="images/p14.webp" />
+          <img class="gal_img" src="images/p15.webp" />
+          <img class="gal_img" src="images/p17.webp" />
+          <img class="gal_img" src="images/p18.webp" />
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="sponsers">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 spon-col">
+          <p class="spon-p">TITLE SPONSOR</p>
+          <img class="spon-img s1" src="images/sponser1.webp" alt="Title-Sponser">
+        </div>
+        <div class="col-md-3 spon-col">
+          <p class="spon-p">OFFICIAL DIGITAL STREAMING PARTNER</p>
+          <img class="spon-img" src="images/sponser3.webp" alt="Title-Sponser">
+        </div>
+        <div class="col-md-3 spon-col">
+          <p class="spon-p">OFFICIAL BROADCASTER</p>
+          <img class="spon-img s2" src="images/sponser2.webp" alt="Title-Sponser">
+        </div>
+        <div class="col-md-3 spon-col">
+          <p class="spon-p">UMPIRE PARTNER</p>
+          <img class="spon-img s9" src="images/sponser9.webp" alt="Title-Sponser">
+        </div>
+        <div class="col-md-3 spon-col">
+          <p class="spon-p">OFFICIAL STRATEGIC TIMEOUT PARTNER</p>
+          <img class="spon-img s10" src="images/sponser10.webp" alt="Title-Sponser">
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <h1 class="f-h1">Follow Us</h1>
+    <i class="social-icon fab fa-instagram fa-2x"></i>
+    <i class="social-icon fab fa-facebook fa-2x"></i>
+    <i class="social-icon fab fa-twitter fa-2x"></i>
+  </footer>
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
